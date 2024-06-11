@@ -9,31 +9,39 @@
 </head>
 
 <body>
-
-  <h1><img src="logo-lindaura.jpg"></h1>
-  <h1 style="text-align: center">Cadastro para a feira dos cursos técnicos</h1> 
+ <header> 
+   <img class="logo"src="logo-colegio.jpg">
+   <br>
+   <h1 style="text-align: center">* <u>Cadastro para a feira dos cursos técnicos </u>*</h1> 
+ </br>
+ </header>
    <main>
   <form>
+   <br> 
     <label for="nomeSobrenome">Nome e Sobrenome</label>
     <input class="input-padrao" type="text" id="nomeSobrenome" required>
+  </br>
 
     <label for="">Quem deseja conhecer nossa feira?</label>
-    <select>
+    <select> <br> 
       <option>Aluno</option>
       <option>Pai</option>
       <option>Mãe</option>
       <option>Responsável</option>
       <option>Visitante</option>
-    </select>
+    </select> </br>
+    <br> 
     <legend>Qual dos cursos você quer conhecer?</legend>
+    
     <label for="radio-Desenvolvimento de Sistemas">  <input type="radio" name="contato" value="email" id="radio-Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</label>
 
-    <label for="radio-Administração">  <input type="radio" name="contato" value="email" id="radio-Administração">Administração</label>
-      
+    <label for="radio-Administração">  <input type="radio" name="contato" value="email" id="radio-Administração">Administração</label> 
+    </br>
+
     </fieldset>
     
     <fieldset>
-    <legend>Qual horário do turno da noite você prefere ser atendido?</legend>
+    <legend> Horário que chegou:</legend>
     <select>
       <option>18h</option>
       <option>19h</option>
@@ -42,6 +50,8 @@
       <option>22h</option>
     </select>
     </fieldset>
+   
+    <label class="checkbox" id="checkbox"></label>
     <input type="submit" value="Enviar o formulário" class="enviar">
   </form>
     </main>
