@@ -1,89 +1,10 @@
 body{
   background-color: #FF3131;
 }
-  header{
+
+header{
   background: #FF3131;
-  padding: 10px 0;
-}
-
-  .h1{
-    width: 800px;
-    position:relative;
-    margin: 0 auto;
-}
-
-nav{
-  position:absolute;
-  top: 110px;
-  right:0;
-}
-
-nav li{
-  display: inline;
-  margin: 0 0 0 15px;
-}
-
-nav a{
-  text-transform: uppercase;
-  color: #000000;
-  font-weight: bold;
-  text-decoration: none;
-  font-size:22px;
-}
-nav a:hover{
-  color: purple;
-  text-decoration: underline;
-}
-
-.produtos{
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px;
-}
-
-.produtos li{
-  display:inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border: 2px solid #000000;
-}
-.produtos li:hover{
-  border-color:purple;
-}
-.produtos li:hover h2{
-  font-size:34px;
-}
-
-produtos li:active{
-  border-color:purple;
-}
-
-.produtos h2{
-  font-size: 30px;
-  font-weight:bold;
-}
-
-.produtos-descricao{
-  font-size: 18px;
-}
-.produtos-precos{
-  font-size: 22px;
-  font-weight: bold;
-}
-
-footer{
-  text-align: center;
-  background: url("bg.jpg");
-  padding:40px 0;
-}
-.copyright{
-  color:#FFFFFF;
-  font-size:13px;
-  margin-top:20px;
+  padding: 5px 0;
 }
 
 main{
@@ -92,7 +13,7 @@ main{
 }
 
 form{
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 form label, form legend{
@@ -103,13 +24,20 @@ form label, form legend{
 
 .input-padrao{
   display:block;
-  margin-bottom: 20px;
-  padding: 10px 25px;
-  width: 50%;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  width: 30%;
+  background-color: white;
 }
 
+select{
+  background-color: white;
+}
+
+  
 .checkbox{
   margin: 20px 0;
+  background-color: white;
 }
 
 .enviar{
@@ -135,7 +63,8 @@ form label, form legend{
 }
 
 .logo{
-    width: 140px;
-    float: left;
-    margin: 10 30px 30px 0;
+  width: 140px;
+  float: left;
+  margin: 0 30px 30px 0;
 }
+

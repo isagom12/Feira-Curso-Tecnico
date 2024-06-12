@@ -18,10 +18,12 @@
    <main>
   <form>
    <br> 
+    <div class="conteudo">
+    <label><b>Preencha as informações abaixo:</b></label>
+    
     <label for="nomeSobrenome">Nome e Sobrenome</label>
     <input class="input-padrao" type="text" id="nomeSobrenome" required>
   </br>
-
     <label for="">Quem deseja conhecer nossa feira?</label>
     <select> <br> 
       <option>Aluno</option>
@@ -29,7 +31,8 @@
       <option>Mãe</option>
       <option>Responsável</option>
       <option>Visitante</option>
-    </select> </br>
+    </select> </br>      
+      
     <br> 
     <legend>Qual dos cursos você quer conhecer?</legend>
     
@@ -37,10 +40,7 @@
 
     <label for="radio-Administração">  <input type="radio" name="contato" value="email" id="radio-Administração">Administração</label> 
     </br>
-
-    </fieldset>
     
-    <fieldset>
     <legend> Horário que chegou:</legend>
     <select>
       <option>18h</option>
@@ -49,11 +49,12 @@
       <option>21h</option>
       <option>22h</option>
     </select>
-    </fieldset>
+    
    
     <label class="checkbox" id="checkbox"></label>
     <input type="submit" value="Enviar o formulário" class="enviar">
   </form>
+   </div>
     </main>
   <script src="script.js"></script>
 </body>
